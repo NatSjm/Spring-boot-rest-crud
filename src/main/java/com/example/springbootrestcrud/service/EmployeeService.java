@@ -1,11 +1,9 @@
-package com.example.springbootrestcrud.dao;
-
-import com.example.springbootrestcrud.entity.Employee;
+package com.example.springbootrestcrud.service;
 
 import java.util.List;
+import com.example.springbootrestcrud.entity.Employee;
 
-public interface EmployeeDAO {
-
+public interface EmployeeService {
     List<Employee> findAll();
 
     Employee findById(int theId);
